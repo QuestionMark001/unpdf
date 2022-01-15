@@ -3,6 +3,7 @@ from tkinter import filedialog
 import pikepdf
 import os
 
+# Windows
 print('请选择PDF文件。 Please choose PDF.\n')
 
 # 打开一个文件选择对话框
@@ -17,4 +18,4 @@ pdf = pikepdf.open(filePath)
 pdf.save('unloked.pdf')
 
 print('解密完成。 Unloked done.')
-os.system("pause") # 请按任意键继续. . . ;Linux下可注释这一行。
+os.system("pause") # 请按任意键继续. . .

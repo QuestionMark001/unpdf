@@ -2,6 +2,7 @@ import tkinter
 from tkinter import filedialog
 import pikepdf
 
+# Linux
 print('请选择PDF文件。 Please choose PDF.\n')
 
 # 打开一个文件选择对话框
