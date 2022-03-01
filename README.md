@@ -1,5 +1,16 @@
-# unpdf
-## 这是一个基于Python破解 PDF编辑密码 的软件。  
+<!--
+ * @Author: QuestionMark001
+ * @Date: 2022-02-19 08:04:03
+ * @LastEditors: QuestionMark001
+ * @LastEditTime: 2022-03-01 20:03:21
+ * @FilePath: \LocalProjects\unpdf\README.md
+ * @Description: 
+ * 
+ * Copyright (c) 2022 by QuestionMark001, All Rights Reserved. 
+-->
+# unpdf  
+
+## 这是一个基于Python破解 PDF编辑密码 的软件  
 
 ### Windows操作系统  
 
@@ -14,7 +25,7 @@ pip install pikepdf
 **同理，使用源代码前请使用以下 `pip` 命令安装 `pikepdf` 。**  
 
 ```console
-$ pip install pikepdf
+pip install pikepdf
 ```  
 
 **除此之外，直接运行源代码可能会提示 _`缺少tkinter模块`_ ：**  
@@ -30,9 +41,12 @@ ModuleNotFoundError: No module named 'tkinter'
 **`deb` 系发行版可使用以下两行命令解决:**  
 
 ```console
-$ sudo apt update
-$ sudo apt install python3-tk
+sudo apt update
 ```  
+
+```console
+sudo apt install python3-tk
+```
 
 ****  
 
