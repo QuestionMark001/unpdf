@@ -2,7 +2,7 @@
  * @Author: QuestionMark001
  * @Date: 2022-02-19 08:04:03
  * @LastEditors: QuestionMark001
- * @LastEditTime: 2022-06-22 18:51:26
+ * @LastEditTime: 2022-06-22 19:34:24
  * @FilePath: \LocalProjects\unpdf\README.md
  * @Description: 
  * 
@@ -10,9 +10,9 @@
 -->
 # unpdf  
 
-## 这是一个基于Python破解 PDF编辑密码 的软件  
+## 这是一个基于 Python 破解 PDF编辑密码 的软件  
 
-### 本项目使用 `Python` 编写，需要安装并配置好 `Python`  
+### 本项目使用 `Python` 编写，需要事先安装并配置好 `Python`  
 
 ### Windows操作系统  
 
@@ -44,7 +44,7 @@ ModuleNotFoundError: No module named 'tkinter'
 
 ```console
 sudo apt update
-```  
+```
 
 ```console
 sudo apt install python3-tk
@@ -56,6 +56,24 @@ sudo apt install python3-tk
 sudo pacman -S tk
 ```
 
+## 🍕如何使用  
+
+**先切换到程序所在目录，然后使用以下命令：**  
+
+**例如在 `Linux` 下使用 `unpdf v0.2版本` ：**  
+
+```console
+python unpdf_v0.2_linux.py
+```
+
+### 🎉使用例  
+
+**🎈 本软件将打开一个tk窗口用来选择PDF文件，选择好PDF文件后，软件将会尝试破解该PDF文件的编辑密码（需要保证该PDF文件有且只有编辑密码，如有查看密码将会报错），由于是非暴力破解，基本可实现秒破，如图所示：**  
+
+![Windows操作系统使用例](img/Windows使用例.gif "Windows操作系统使用例")  
+
+**破解后的PDF文件将以 `unlocked.pdf` 保存在与 `unpdf` 的同级目录下。**  
+
 ****  
 
-**注：目前只能破解编辑密码，无法破解查看密码。**  
+**注：目前只能破解只有编辑密码的PDF文件，无法破解查看密码。**  
