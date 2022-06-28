@@ -2,8 +2,8 @@
  * @Author: QuestionMark001
  * @Date: 2022-02-19 08:04:03
  * @LastEditors: QuestionMark001
- * @LastEditTime: 2022-06-27 11:07:21
- * @FilePath: \LocalProjects\unpdf\README.md
+ * @LastEditTime: 2022-06-28 12:08:36
+ * @FilePath: /LocalProjects/unpdf/README.md
  * @Description: 
  * 
  * Copyright (c) 2022 by QuestionMark001, All Rights Reserved. 
@@ -77,3 +77,9 @@ python unpdf_v0.2_linux.py
 ****  
 
 **注：目前只能破解只有编辑密码的PDF文件，无法破解查看密码。**  
+
+## LICENSE  
+
+****  
+
+Apache License 2.0  
