@@ -78,6 +78,6 @@ python unpdf_v0.2_linux.py
 
 **注：目前只能破解只有编辑密码的PDF文件，无法破解查看密码。**  
 
-## LICENSE  
+## License  
 
 Apache License 2.0  
