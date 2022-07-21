@@ -2,7 +2,7 @@
  * @Author: QuestionMark001
  * @Date: 2022-02-19 08:04:03
  * @LastEditors: QuestionMark001
- * @LastEditTime: 2022-06-28 12:10:01
+ * @LastEditTime: 2022-07-21 20:58:40
  * @FilePath: /LocalProjects/unpdf/README.md
  * @Description: 
  * 
@@ -12,7 +12,7 @@
 
 ## 这是一个基于 Python 破解 PDF编辑密码 的软件  
 
-### 本项目使用 `Python` 编写，需要事先安装并配置好 `Python` ，同时，请确保当前使用的 `Python` 版本号为 `3.0` 或 `3.0` 以上版本  
+### 本项目使用 `Python` 编写，需要事先安装并配置好 `Python` ，同时，请确保当前使用的 `Python` 版本号为 `3.7` 或 `3.7` 以上版本  
 
 ### Windows操作系统  
 
@@ -58,7 +58,7 @@ sudo pacman -S tk
 
 ## 🍕如何使用  
 
-**先切换到程序所在目录，然后使用以下命令：**  
+**_先切换到 `程序所在目录`_，然后使用以下命令：**  
 
 **例如在 `Linux` 下使用 `unpdf v0.2版本` ：**  
 
@@ -72,7 +72,7 @@ python unpdf_v0.2_linux.py
 
 ![Windows操作系统使用例](img/Windows使用例.gif "Windows操作系统使用例")  
 
-**破解后的PDF文件将以 `unlocked.pdf` 保存在与 `unpdf` （即为本软件）相同的同级目录下。**  
+**如果 _事先切换到 `本程序所在目录` 时_ ，那么破解后的PDF文件将以 `unlocked.pdf` 保存在与 `unpdf` （即为本软件）相同的同级目录下。**  
 
 ****  
 
