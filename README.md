@@ -2,7 +2,7 @@
  * @Author: QuestionMark001
  * @Date: 2022-02-19 08:04:03
  * @LastEditors: QuestionMark001
- * @LastEditTime: 2022-07-21 20:58:40
+ * @LastEditTime: 2022-10-17 15:01:41
  * @FilePath: /LocalProjects/unpdf/README.md
  * @Description: 
  * 
@@ -54,6 +54,12 @@ sudo apt install python3-tk
 
 ```console
 sudo pacman -S tk
+```
+
+**`CentOS` 可使用以下命令解决:**  
+
+```console
+sudo yum -y install tkinter
 ```
 
 ## 🍕如何使用  
